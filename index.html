@@ -6,7 +6,7 @@
     <title>Personal portfolio - Tailwind CSS</title>
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
+<body class="space-y-16">
     <header class="max-w-6xl mx-auto py-4">
         <nav class="px-4 md:px-8 py-2 flex items-center justify-between">
             <div class="logo">
@@ -31,9 +31,152 @@
             </h2>
             <p class="text-sm">a visual web developer with a vision.</p>
         </div>
-        <div class="banner-image mr-12">
+        <div class="banner-image ">
             <img class="w-full object-cover" src="assets/images/banner.png" alt="">
         </div>
+    </section>
+
+    <section class="sponsor-brands max-w-5xl mx-auto px-4 md:px-0 flex flex-col md:flex-row justify-start items-start md:items-center md:justify-between py-8 gap-4">
+        <img src="assets/images/brand1.png" alt="">
+        <img src="assets/images/brand2.png" alt="">
+        <img src="assets/images/brand3.png" alt="">
+        <img src="assets/images/brand4.png" alt="">
+        <img src="assets/images/brand5.png" alt="">
+    </section>
+
+    <section class="my-service max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+        <div class="text-center space-y-4 text-[#2d2d2d]">
+            <img class="mx-auto" src="assets/images/service1.png" alt="">
+            <h3 class="font-semibold text-xl">
+                Product Design
+            </h3>
+            <p>
+                We provide product desgin for your better user experience.
+            </p>
+        </div>
+        <div class="text-center space-y-4 text-[#2d2d2d]">
+            <img class="mx-auto" src="assets/images/service2.png" alt="">
+            <h3 class="font-semibold text-xl">
+                Art Direction
+            </h3>
+            <p>
+                We provide product desgin for your better user experience.
+            </p>
+        </div>
+        <div class="text-center space-y-4 text-[#2d2d2d]">
+            <img class="mx-auto" src="assets/images/service1.png" alt="">
+            <h3 class="font-semibold text-xl">
+                Visual Design
+            </h3>
+            <p>
+                We provide product desgin for your better user experience.
+            </p>
+        </div>
+    </section>
+
+    <section class="my-latest-work px-4 md:px-0 max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold text-center text[#2d2d2d]">
+            My Latest Works
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <div class="p-8">
+                <img class="w-full" src="assets/images/work1.png" alt="">
+                <h3 class="text-xl font-semibold text-[#2d2d2d] mt-3">Free Bird</h3>
+                <p class="mt-2 text-lg ">Sam Altman</p>
+            </div>
+            <div class="p-8">
+                <img class="w-full" src="assets/images/work2.png" alt="">
+                <h3 class="text-xl font-semibold text-[#2d2d2d] mt-3">Purple Haze</h3>
+                <p class="mt-2 text-lg ">Jimi Hendrix</p>
+            </div>
+            <div class="p-8">
+                <img class="w-full" src="assets/images/work3.png" alt="">
+                <h3 class="text-xl font-semibold text-[#2d2d2d] mt-3">You Really Got Me</h3>
+                <p class="mt-2 text-lg ">The Kinks</p>
+            </div>
+            <div class="p-8">
+                <img class="w-full" src="assets/images/work4.png" alt="">
+                <h3 class="text-xl font-semibold text-[#2d2d2d] mt-3">American Girl</h3>
+                <p class="mt-2 text-lg ">Tom Petty</p>
+            </div>
+            <div class="p-8">
+                <img class="w-full" src="assets/images/work5.png" alt="">
+                <h3 class="text-xl font-semibold text-[#2d2d2d] mt-3">Whole Lotta Love</h3>
+                <p class="mt-2 text-lg ">Led Zeppelin</p>
+            </div>
+            <div class="p-8">
+                <img class="w-full" src="assets/images/work6.png" alt="">
+                <h3 class="text-xl font-semibold text-[#2d2d2d] mt-3">Under Pressure</h3>
+                <p class="mt-2 text-lg ">Queen</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials px-4 md:px-0 max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold text-center text[#2d2d2d]">
+            Clients
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-4">
+            <div class="bg-[#fffcf5] border border-[#FFD285] p-6">
+                <p class="text-base font-semibold">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam maxime neque iusto, odit numquam reprehenderit repellendus quos aspernatur amet eaque non vero sint saepe dolorum! Fugiat tenetur repellat
+                </p>
+                <div class="mt-4">
+                    <img src="" alt="">
+                    <div>
+                        <!-- stars -->
+                        <p>Gema Nolen</p>
+                        <p class="text-sm">Google</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#fffcf5] border border-[#FFD285] p-6">
+                <p class="text-base font-semibold">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam maxime neque iusto, odit numquam reprehenderit repellendus quos aspernatur amet eaque non vero sint saepe dolorum! Fugiat tenetur repellat
+                </p>
+                <div class="mt-4">
+                    <img src="" alt="">
+                    <div>
+                        <!-- stars -->
+                        <p>Gema Nolen</p>
+                        <p class="text-sm">Google</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#fffcf5] border border-[#FFD285] p-6">
+                <p class="text-base font-semibold">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam maxime neque iusto, odit numquam reprehenderit repellendus quos aspernatur amet eaque non vero sint saepe dolorum! Fugiat tenetur repellat
+                </p>
+                <div class="mt-4">
+                    <img src="" alt="">
+                    <div>
+                        <!-- stars -->
+                        <p>Gema Nolen</p>
+                        <p class="text-sm">Google</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us px-4 md:px-0 pt-10 max-w-5xl  mx-auto flex gap-5 flex-col md:flex-row ">
+        <div class="md:w-5/10 space-y-5">
+            <h2 class="text-3xl font-bold">Let's work together.</h2>
+            <p class="text-sm md:w-[300px] leading">
+                This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+            </p>
+            <div class="socials">
+                <img src="assets/images/icons.png" alt="">
+            </div>
+        </div>
+        <form class="md:w-5/10 flex flex-col space-y-5 ">
+            <input class="w-full bg-[#f3f3f3]  rounded p-3" type="text" placeholder="Name">
+            <input class="w-full bg-[#f3f3f3]  rounded p-3" type="email" placeholder="Email">
+            <textarea class="w-full bg-[#f3f3f3] rounded p-3" name="" id="" placeholder="Type your message here."></textarea>
+            <button class="bg-black text-white p-3 rounded">Submit</button>
+        </form>
     </section>
 </body>
 </html>
